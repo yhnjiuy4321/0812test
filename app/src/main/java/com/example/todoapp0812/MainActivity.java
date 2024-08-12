@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     public void back(View view){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("確定放棄?").setMessage("確定放棄並返回主頁面?");
-        builder.setPositiveButton("確定", null);
+        builder.setPositiveButton("確定", null);//
         builder.setNeutralButton("取消", null);
         builder.show();
     }
